@@ -114,7 +114,7 @@ class VideoTrimmer2Plugin: FlutterPlugin, MethodCallHandler {
         rotationString?.toIntOrNull() ?: 0
       }
 
-      muxer.setOrientationHint(rotation)
+      // muxer.setOrientationHint(rotation)
 
       // Start muxing
       muxer.start()
